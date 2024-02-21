@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>hola funciona answer</h1>
+
+  <div class="card mb-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Your question:</h5>
+      <p class="card-text"><%= @ask %></p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Coach answer:</h5>
+      <p class="card-text"><%= @answer %></p>
+      <%= link_to "Ask a new question", ask_path, class: "card-link" %>
+    </div>
+  </div>
+
+
+</div>
