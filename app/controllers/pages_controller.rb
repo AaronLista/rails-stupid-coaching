@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
 
   def answer
-    @ask = params[:ask]
+    @ask = params[:question]
     @answer = ''
 
     if @ask.downcase == 'I am going to work right now!'.downcase
